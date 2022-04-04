@@ -8,8 +8,6 @@ public class Main {
 		
 		N.entradaDadosVeiculo();
 		
-		
-		//Exemplo
 	}
 
 }
