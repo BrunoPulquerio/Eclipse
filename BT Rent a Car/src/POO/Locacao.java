@@ -2,24 +2,30 @@ package POO;
 
 public class Locacao {
 	
-	private Veiculo V1;
-	private Cliente C1;
+	private Veiculo vLocador;
+	private Cliente locatario;
 	
 	public void alugar(Veiculo carro1, Cliente cliente1){
 		
 		if(carro1.isStatusLocacao() == true) {
 			
-			this.V1 = carro1;
-			this.C1 = cliente1;
+			this.vLocador = carro1;
+			this.locatario = cliente1;
 			System.out.println("Veiculo " + carro1.getModelo() + " alugado para o cliente " + cliente1.getNome());
 			
 		} else {
 			
 			System.out.println("Locação indisponivel pois o veículo está indisponivel");
-			this.V1 = null;
-			this.C1 = null;
+			this.vLocador = null;
+			this.locatario = null;
 			
 		}
+		
+	}
+	
+	public void devolverVeiculo(Veiculo carro1, Cliente cliente1) {
+		
+		//Wait
 		
 	}
 	
