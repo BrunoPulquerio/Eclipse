@@ -2,7 +2,7 @@ package POO;
 
 public class Veiculo {
 
-	private String marca;
+	public String marca;
 	private String modelo;
 	private String placa;
 	private float valorAluguel;

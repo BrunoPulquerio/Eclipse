@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		
-		try {
 
 		Scanner input = new Scanner(System.in);
 		
@@ -40,11 +38,7 @@ public class Main {
 			carros[aux].dadosVeicular();
 			
 		}
-	
-		}
-		catch (java.lang.NullPointerException exception) {
-			System.out.println("Preste atenção, ERRO!!!");
-		}
+
 
 	}
 
